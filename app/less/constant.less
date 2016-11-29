@@ -1,0 +1,7 @@
+/*新的字体设置方式。尽量在dom元素上添加ft-xx的class。也可以在less中使用mixin语法混合样式，但会增加css样式数量。*/ 
+.ft-12 {
+	font-size: 0.12rem;
+	@media (max-height: 1000px), (max-width: 1920px) {
+		font-size: 12px;
+	}
+}
