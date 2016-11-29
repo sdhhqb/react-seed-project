@@ -77,7 +77,7 @@ if (env === 'production') {
 			template: 'app/template.html',
 			inject: 'body'
 		})
-	)
+	);
 	// 压缩代码
 	config.plugins.push(
 		new webpack.optimize.UglifyJsPlugin()

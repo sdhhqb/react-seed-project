@@ -10,7 +10,7 @@ class A extends React.Component {
 			<div>abc</div>
 		);
 	}
-};
+}
 
 export default A;
 
